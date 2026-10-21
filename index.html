@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе Софія у Самборі — Головна</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#F5F5DC] text-gray-800 font-sans">
+
+    <!-- Навигация -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-200 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-[#6F4E37] flex items-center gap-2">
+                ☕ Кафе Софія
+            </a>
+            <div class="hidden md:flex items-center gap-2">
+                <a href="index.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Меню</a>
+                <a href="gallery.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Контакти</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Хлебные крошки -->
+    <div class="max-w-6xl mx-auto px-6 py-4 text-sm text-gray-600">
+        Головна
+    </div>
+
+    <!-- Hero Секция -->
+    <header class="min-h-[80vh] relative bg-cover bg-center flex items-center justify-center text-center" style="background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=1920');">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-4xl mx-auto px-6 text-white">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">Кафе Софія у Самборі</h1>
+            <p class="text-lg md:text-2xl mb-8 text-gray-200">Затишна атмосфера, витончені десерти та найкраща кава в історичному центрі міста.</p>
+            <a href="booking.html" class="inline-block bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-semibold shadow-2xl transition">Забронювати столик</a>
+        </div>
+    </header>
+
+    <!-- Избранные позиции меню -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-[#6F4E37] mb-4">Популярні позиції</h2>
+            <p class="text-gray-600">Спробуйте наші найкращі смаколики, які підкорили серця відвідувачів.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=600" alt="Еспресо" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Кава та напої</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2 text-gray-800">Еспресо</h3>
+                    <p class="text-gray-600 text-sm mb-4">Класичний італійський еспресо з насиченим смаком та ароматом.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold text-[#6F4E37]">45₴</span>
+                        <a href="services.html" class="text-amber-600 font-semibold hover:underline text-sm">У меню &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=600" alt="Фруктовий торт з безе" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Десерти</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2 text-gray-800">Фруктовий торт з безе</h3>
+                    <p class="text-gray-600 text-sm mb-4">Ніжний та витончений торт із хрустким безе, свіжими фруктами та легким крем-чизом.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold text-[#6F4E37]">120₴</span>
+                        <a href="services.html" class="text-amber-600 font-semibold hover:underline text-sm">У меню &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition overflow-hidden border border-amber-100">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600" alt="Фірмові тістечка від шефа" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-xs font-semibold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Десерти</span>
+                    <h3 class="text-xl font-bold mt-3 mb-2 text-gray-800">Фірмові тістечка від шефа</h3>
+                    <p class="text-gray-600 text-sm mb-4">Асортимент свіжих домашніх тістечок за авторськими рецептами.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold text-[#6F4E37]">95₴</span>
+                        <a href="services.html" class="text-amber-600 font-semibold hover:underline text-sm">У меню &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="bg-amber-100/50 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-[#6F4E37] mb-4">Відгуки наших гостей</h2>
+                <p class="text-gray-600">Що кажуть відвідувачі про Кафе Софія</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-amber-200">
+                    <div class="flex items-center gap-1 text-amber-500 mb-4">★★★★★</div>
+                    <p class="text-gray-700 italic mb-6">"If you have a sweet tooth, I can recommend you Cafe Sofia, which is located on Museum Street in Sambor. I was pleasantly surprised by the organization of the staff... What a mouth-watering cake it was! In addition to my order, I had amuse bouche from chef! It was a cup of Italian espresso."</p>
+                    <div class="font-bold text-gray-900">— Tripadvisor Reviewer</div>
+                    <div class="text-xs text-amber-600 mt-1">Джерело: Tripadvisor</div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-md border border-amber-200">
+                    <div class="flex items-center gap-1 text-amber-500 mb-4">★★★★★</div>
+                    <p class="text-gray-700 italic mb-6">"While your trip around West Ukraine and your visit to Sambir stop here to taste different cakes up to your choice. We tasted 3 different and it was good. Stop and relax, believe you are in Europe, in Ukraine. It worth to visit here."</p>
+                    <div class="font-bold text-gray-900">— Family Traveler</div>
+                    <div class="text-xs text-amber-600 mt-1">Джерело: Tripadvisor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Бронирование баннер -->
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <div class="bg-[#6F4E37] text-white rounded-3xl p-12 shadow-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Бажаєте провести час у затишку?</h2>
+            <p class="text-amber-200 mb-8 max-w-xl mx-auto">Забронюйте столик заздалегідь та насолодіться чудовою кавою та десертами без зайвого очікування.</p>
+            <a href="booking.html" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-lg transition inline-block">Забронювати зараз</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Кафе Софія</h3>
+                <p class="text-sm text-gray-400">Затишна атмосфера, витончені десерти та найкраща кава в історичному центрі Самбора.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-white mb-4">Контакти</h3>
+                <p class="text-sm text-gray-400 mb-2">вул. Музейна, 1/4, Самбір, 81400</p>
+                <p class="text-sm text-gray-400 mb-2">Телефон: +380984999236</p>
+                <p class="text-sm text-gray-400">Email: info@cafe-sofia.ua</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold text-white mb-4">Години роботи</h3>
+                <p class="text-sm text-gray-400 mb-2">Понеділок - Неділя</p>
+                <p class="text-sm text-amber-400 font-semibold">09:00 - 21:00</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 border-t border-gray-800 mt-8 pt-6 text-center text-xs text-gray-500">
+            © 2024 Кафе Софія. Всі права захищені.
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
